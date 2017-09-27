@@ -1,4 +1,4 @@
-let input = "apples";
+let input = "hamburgers";
 let salt = "banana";
 let alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
 
@@ -38,10 +38,10 @@ function decrypt(str) {
   return decryptedStr;
 }
 
-console.log(encrypt(input));
 // console.log(encrypt(input));
-console.log(decrypt(encrypt(input)));
-console.log(decrypt('udbtezYoN(lo^fnT'));
+// console.log(encrypt(input));
+// console.log(decrypt(encrypt(input)));
+// console.log(decrypt('niiroa'));
 
 // export {encrypt, decrypt};
 module.exports = { encrypt, decrypt}
